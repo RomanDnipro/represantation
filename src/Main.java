@@ -23,12 +23,12 @@ public class Main {
 
             for (int i = 0; i < res.length; i++){
 
-//                res[i] < 1 ? res[i] = 1 : res[i] = 0;
-                if (res[i] < 1){
-                    res[i] = 1;
-                } else {
-                    res[i] = 0;
-                }
+                res[i] = res[i] < 1 ? 1 : 0;
+//                if (res[i] < 1){
+//                    res[i] = 1;
+//                } else {
+//                    res[i] = 0;
+//                }
             }
         }
 

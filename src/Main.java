@@ -6,6 +6,8 @@ public class Main {
 
     public static void main(String[] args) {
 
+//        System.out.println("aS12 =0Edw".toUpperCase());
+
 //        Scanner sc = new Scanner(System.in);
 //        String regEx = "";
 //
@@ -18,7 +20,16 @@ public class Main {
 //        int startSystem = Integer.parseInt(UI.stringStartSystem(sc, regEx));
 //        System.out.println("start system: " + startSystem);
 //        System.out.println("regEx: " + regEx);
-        System.out.println(Representation.posRepresentBinToDec("10000000001"));
+//        System.out.println(Representation.posRepresentBinToDec("10000000001"));
+        System.out.println(Representation.posRepresentHexToDec("64CB"));  //  positive Hex to Dec
+        System.out.println(Representation.posRepresentDecToHex(25803));  //  positive Dec to Hex
+        System.out.println(Arrays.toString(Representation.representDecToBin(256)));  //  POSITIVE Dec to Bin
+        System.out.println(Arrays.toString(Representation.representDecToBin(-6)));  //  NEGATIVE Dec to Bin
+        System.out.println(Representation.posRepresentBinToDec("10001"));  //  positive Bin to Dec
+        System.out.println(Arrays.toString(Representation.posRepresentHexToBin("64CB")));  //  positive Hex to Bin
+        System.out.println(Representation.posRepresentBinToHex(101111));  //  positive Bin to Hex
+
+
 //        /**
 //         * Принимем базу
 //         * целевой системы счисления
